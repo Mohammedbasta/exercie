@@ -56,7 +56,7 @@ L’exercice est prévu pour ne pas vous demander plus de 30 minutes. Lors de l�
 
 - La classe PanierCalculator doit etre importée pour être utilisée
 - La methode prix_panier accepte une liste des films ou le chemin vers un fichier txt
-- Les tests ont été mise en place avant le developpement du calculateur en utilisant la librairie Unittest de Python
+- Les tests ont été mise en place avant le developpement du calculateur en utilisant le framework Unittest de Python
 - Vous pouver executer le script de test test_TDD.py pour s'assurer du bon fonctionnement du calculateur
 - les tests ont été faites pour analyser :
       * tester la précision des resultats globales de l'exercice 
