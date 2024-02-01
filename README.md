@@ -1,1 +1,1 @@
-# exercie_EKINOX
+# exercie
