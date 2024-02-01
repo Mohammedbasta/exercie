@@ -1,4 +1,6 @@
 import os, logging, sys
+from pathlib import Path, PureWindowsPath
+
 
 class PriceCalculationError(Exception):
     pass
@@ -20,10 +22,14 @@ class PanierCalculator:
        Retourne :
        - List[str] : Liste des films lues depuis le fichier.
        """
-
-        with open(file_path, 'r') as file:
-            return [line.strip() for line in file.readlines()]
-
+        try:
+            with open(file_path, 'r') as file:
+                return [line.strip() for line in file.readlines()]
+        except:
+            filename = PureWindowsPath(file_path)
+            correct_path = Path(filename)
+            with open(correct_path, 'r') as file:
+                return [line.strip() for line in file.readlines()]
 
 
     def prix_panier(self, input_data):
