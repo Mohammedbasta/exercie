@@ -18,7 +18,6 @@ Le Calculateur de Panier a été créé pour aider les utilisateurs à calculer 
 
 ## Fonctionnalités 'énoncé'
 
-Note avant de commencer : le livrable doit être fait comme s'il était réalisé pour un client et que vous initiiez ce programme pour travailler ensuite en équipe. Il doit être exemplaire.
 
 L'équipe de production de Back to the Future voudrait remettre au goût du jour sa saga avec une technique marketing imparable :
 
@@ -33,11 +32,6 @@ Portant la lourde responsabilité de réparer les failles temporelle, l'équipe 
 
 En entrée, un panier sous forme de texte, séparé par des retours à la ligne qui contient le nom des films achetés
 En sortie, le nombre représentant le prix
-Vous êtes libre de montrer le résultat de la manière qui vous convient et cela peut rester très minimaliste, tant qu'il est clair que le programme sait lire le format d'entrée et qu'il suit bien les règles spécifiées. Néanmoins, comme indiqué en début d’énoncé, ce code devra être traité comme si vous l’initiiez pour votre future équipe.
-
-Vous pourrez choisir le langage qui vous paraîtra le plus pertinent (dans lequel vous êtes à l'aise, c'est mieux), et qui devra pouvoir s'exécuter sur une JVM ou en Python. Vous vous assurerez que le livrable permette à quelqu'un ayant le SDK adéquat de lancer, utiliser et maintenir votre programme aisément. En résumé, le code doit être de très bonne qualité.
-
-L’exercice est prévu pour ne pas vous demander plus de 30 minutes. Lors de l’éventuel entretien, venez avec votre code sur votre PC (pour vous permettre d’avoir un support sur lequel vous avez la main).
 
 ## Démarrage
 
