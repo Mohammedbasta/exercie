@@ -44,7 +44,7 @@ En sortie, le nombre représentant le prix
 1. Clonez le dépôt :
 
    ```bash
-   git clone https://github.com/Mohammedbasta/exercie_EKINOX.git
+   git clone https://github.com/Mohammedbasta/exercie.git
 
 ### Utilisation
 
